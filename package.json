@@ -1,0 +1,23 @@
+{
+  "name": "claude-design-video-export",
+  "version": "1.0.0",
+  "description": "Render standalone Claude artifact HTMLs (the animated promos exported from claude.ai) to MP4 at 720p/1080p/1440p/4K.",
+  "type": "module",
+  "main": "render.mjs",
+  "bin": {
+    "claude-design-video-export": "./render.mjs"
+  },
+  "scripts": {
+    "start": "node menu.mjs",
+    "menu": "node menu.mjs",
+    "render": "node render.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@inquirer/prompts": "^8.4.2",
+    "puppeteer": "^24.0.0"
+  },
+  "license": "MIT"
+}

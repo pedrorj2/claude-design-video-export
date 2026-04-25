@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+*.mp4
+.frames-*/
+*.log
+.DS_Store
+Thumbs.db
